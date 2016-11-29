@@ -1,0 +1,28 @@
+#landingpage {
+  color: white;
+  text-align: center;
+  background-color: #bf40bf;
+  padding: 2em 2em;
+  padding-top: 5em; }
+
+#landingpage nav a {
+  color: white;
+  margin-left: 2em;
+  text-decoration: none;
+  font-size: 1em; }
+  #landingpage nav a.active {
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    padding-bottom: 0.5em; }
+
+#landingpage a.action {
+  font-weight: bold;
+  background-color: #4BD9DD;
+  color: white;
+  border-radius: 2px;
+  width: 10em;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: bold; }
+
+/*# sourceMappingURL=styles.css.map */
