@@ -1,0 +1,51 @@
+#landingpage{
+  color:$light-font-color;
+  text-align: center;
+  background-color: #bf40bf;
+  padding-top: 5em;
+
+}
+
+#landingpage nav a{
+  color: $light-font-color;
+  margin-left: 2em;
+  text-decoration: none;
+  font-size: 1em;
+    &.active
+    {
+    font-weight: bold;
+    border-bottom: 2px solid $light-font-color;
+    padding-bottom: 0.5em;
+  }
+}
+
+#landingpage a.action {
+  background-color: #4BD9DD;
+  width: 10em;
+}
+
+
+.image-container{
+  position: relative;
+
+    img{
+      margin-top: 5em;
+    }
+        .caption{
+          position: absolute;
+          bottom: 1em;
+          left: 2em;
+          text-align: left;
+      }
+
+      .likes{
+        // color: white;
+        position: absolute;
+        bottom: 1em;
+        right: 4em
+        // text-align: right;
+      }
+      p{
+        margin: 0;
+      }
+    }

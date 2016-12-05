@@ -1,28 +1,71 @@
 #landingpage {
-  color: white;
+  color: #fff;
   text-align: center;
   background-color: #bf40bf;
-  padding: 2em 2em;
   padding-top: 5em; }
 
 #landingpage nav a {
-  color: white;
+  color: #fff;
   margin-left: 2em;
   text-decoration: none;
   font-size: 1em; }
   #landingpage nav a.active {
     font-weight: bold;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #fff;
     padding-bottom: 0.5em; }
 
 #landingpage a.action {
+  background-color: #4BD9DD;
+  width: 10em; }
+
+.image-container {
+  position: relative; }
+  .image-container img {
+    margin-top: 5em; }
+  .image-container .caption {
+    position: absolute;
+    bottom: 1em;
+    left: 2em;
+    text-align: left; }
+  .image-container .likes {
+    position: absolute;
+    bottom: 1em;
+    right: 4em; }
+  .image-container p {
+    margin: 0; }
+
+#body {
+  font-family: 'Yrsa', serif; }
+
+#intro {
+  text-align: center;
+  padding: 2em; }
+
+.btn-solid {
   font-weight: bold;
   background-color: #4BD9DD;
-  color: white;
-  border-radius: 2px;
-  width: 10em;
+  color: #fff;
   text-transform: uppercase;
-  font-size: 0.9em;
-  font-weight: bold; }
+  font-weight: bold;
+  margin: 1em;
+  padding: 1em 3em; }
+  .btn-solid:hover {
+    color: #fff; }
+
+.btn-outline {
+  color: primary-color;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-weight: 1em;
+  border: 1px solid #4BD9DD;
+  padding: 1em 3em; }
+  .btn-outline:hover {
+    color: grey; }
+
+h2 {
+  margin-top: 1.5em; }
+
+p {
+  font-size: 1.2em; }
 
 /*# sourceMappingURL=styles.css.map */
