@@ -61,6 +61,32 @@
   .freeaccount:hover {
     color: white; }
 
+#videoimage {
+  position: relative; }
+  #videoimage img {
+    width: 100%; }
+  #videoimage i {
+    position: absolute;
+    font-size: 9em;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%); }
+
+#customization {
+  text-align: center;
+  padding: 4em 0;
+  color: #F7F7F5; }
+  #customization i {
+    color: #bf40bf;
+    font-size: 3em; }
+  #customization a {
+    color: #bf40bf; }
+  #customization p {
+    color: black; }
+  #customization h3 {
+    color: black; }
+
 #intro {
   text-align: center;
   padding: 2em; }
