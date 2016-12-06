@@ -87,6 +87,31 @@
   #customization h3 {
     color: black; }
 
+#pricing {
+  text-align: center;
+  padding: 4em 0; }
+  #pricing p.plorem {
+    margin-bottom: 2em;
+    font-weight: bold; }
+  #pricing p.pheading {
+    margin: 2em 0; }
+  #pricing .priceoption {
+    border: 1px solid black;
+    height: 44em;
+    position: relative; }
+    #pricing .priceoption h3 {
+      background-color: #bf40bf;
+      margin: 0;
+      padding: 0.6em 0;
+      text-transform: uppercase; }
+    #pricing .priceoption p.description {
+      font-weight: bold; }
+    #pricing .priceoption a.signup {
+      position: absolute;
+      bottom: 1em;
+      left: 2em;
+      right: 2em; }
+
 #intro {
   text-align: center;
   padding: 2em; }
